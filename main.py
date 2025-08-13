@@ -57,6 +57,9 @@ if __name__ == '__main__':
 
         # Write Frames
         out.write(frame)
+        
+        if frame is None:
+            break
 
         # Display Frames
         if display:
